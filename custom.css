@@ -1,0 +1,135 @@
+/* custom-styles.css */
+.nav-tabs .nav-link {
+  padding: 15px 30px; /* Increase padding for larger touch targets */
+  font-size: 1.25rem; /* Larger font size */
+  color: #4a766e;
+
+}
+.navbar-brand {
+    font-weight: bold; /* Make the initials bold */
+    display: flex;
+    align-items: center; /* Center the initials vertically */
+    margin-right: 25px; /* Optional: Adjust spacing between the initials and the nav items */
+    margin-left: 25px;
+    font-size: 1.8rem;
+}
+
+
+/* Change the background color of active nav-link */
+.nav-tabs .nav-link.active {
+    background-color: #4a766e; /* Dark green background for active links */
+    color: #ffffff; /* White text for contrast */
+}
+
+/* Change the hover background color of nav-link */
+.nav-tabs .nav-link:hover {
+    background-color: #4a766e; /* Brighter green background on hover */
+    color: #ffffff; /* White text on hover for contrast */
+}
+
+
+/* If you want to increase the dropdown menu size as well */
+.dropdown-menu .dropdown-item {
+  font-size: 1.25rem;
+}
+
+.section-background {
+    position: relative;
+    height: 400px; /* Set the height of your section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('pic1.jpeg');
+    background-size: cover;
+    background-position: center;
+    opacity: 100; /* Set the opacity of the background image */
+    z-index: -1; /* Make sure the image is behind the content */
+}
+
+.section-background h1 {
+    position: relative;
+    color: #000000; /* Text color */
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    z-index: 1; /* Make sure the text is above the pseudo-element */
+}
+
+/* Icon Sidebar Styling */
+.icon-sidebar {
+    position: fixed; /* Fixed position to stay visible */
+    top: 30%; /* Center vertically */
+    left: 0; /* Align to the left side of the page */
+    transform: translateY(-50%); /* Adjust the vertical alignment */
+    background-color: #f1f1f1; /* Background color */
+    padding: 20px; /* Padding around icons */
+    border-radius: 0 50px 50px 0; /* Rounded corners on the right */
+    display: flex; /* Organize icons in a flex container */
+    flex-direction: column; /* Stack icons vertically */
+    gap: 10px; /* Space between icons */
+    z-index: 1;
+}
+
+/* Icon link styling */
+.icon-sidebar a {
+    color: black; /* Icon color */
+    display: block; /* Stack the links */
+    text-align: center; /* Center icons horizontally */
+}
+
+/* Change icon color on hover */
+.icon-sidebar a:hover {
+    color: #999; /* Darker shade on hover */
+}
+
+.about-me {
+    background-color: #f2f2f2; /* Light grey background */
+    padding: 100px 0; /* Add some padding above and below the content */
+}
+
+.about-me .container {
+    text-align: center; /* Center content */
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.about-me h2 {
+    display: inline-block; /* Make the h2 width content-based */
+    margin-bottom: 30px;
+    color: #111111;
+    border-bottom: 2px solid #000; /* Your desired border */
+    padding-bottom: 10px;
+    text-align: left; /* Aligns the text inside the h2 if needed */
+}
+
+
+.about-me p {
+    text-align: left;
+    color: #111000; /* Lighter text for the paragraph */
+    line-height: 1.6; /* Increase line height for readability */
+}
+
+.footer {
+            color: #4a766e; /* Sage green */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+.name-highlight {
+    background-color: #d8e2dc;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    /* Optional: adds a subtle shadow for depth */
+}
+
+

@@ -1,11 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="custom.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
 </head>
 <body>
-<p>wow</p>
+<div class="nav-container d-flex justify-content-between"> <!-- Flex container for alignment -->
+    <a href="index.html" class="navbar-brand">AS</a> <!-- Assuming 'index.html' is your homepage -->
 
+<ul class="nav justify-content-end nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="resume.html">Resume</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Projects</a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="personal_project.html">Coding Project</a></li>
+            <li><a class="dropdown-item" href="DCIM.html">DCIM Project</a></li>
+        </ul>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+    </li>
+</ul>
+</div>
+
+<!-- Sidebar -->
+<!-- Icon Sidebar -->
+<div class="icon-sidebar">
+    <a href="https://www.linkedin.com/in/andrew-salermo-b1550417a/" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a>
+    <a href="https://github.com/AndrewSalermo" target="_blank"><i class="fab fa-github fa-4x"></i></a>
+</div>
+
+
+
+<section class="section-background d-flex justify-content-center align-items-center">
+    <h1 class="text-center"><span class="name-highlight">HI, I'M ANDREW SALERMO</span></h1>
+</section>
+
+
+
+<section class="about-me">
+    <div class="container">
+        <h2>About Me</h2>
+        <p> I'm in my final year at Rutgers University, majoring in computer science with a minor in Digital Communications,
+            Information, and Media (DCIM). I'm passionate about using technology to improve everyday life. My time at
+            university has been filled with both solo projects and teamwork, teaching me the importance of coding and
+            innovation in group settings. I've gained solid skills in Java, HTML, and CSS, and I'm excited about starting
+            my career in software development.</p>
+
+           <p> I'm looking forward to meeting other people who love technology as much as I do. I believe that we can use
+            technology to make a real difference in the world. Every day, I aim to become a better version of myself,
+            hoping to make a positive impact both in the tech community and beyond.</p>
+        <!-- Add more about yourself here -->
+    </div>
+
+
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <span>&copy; 2024 Andrew Salermo. All rights reserved.</span>
+    </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
