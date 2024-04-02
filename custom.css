@@ -132,4 +132,153 @@
     /* Optional: adds a subtle shadow for depth */
 }
 
+.resume-header{
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    margin: auto; /* Center the div */
+    padding-bottom: 5px;
+    display: block; /* Ensure the div is block-level so 'margin: auto' works */
+    width: 25%; /* Shrink the width around its content */
+}
+
+.resume-preview {
+    text-align: center; /* Centers inline elements like <img> */
+    background-color: #f2f2f2; /* Light grey background */
+    padding: 20px;
+    margin: auto; /* Center the div */
+    display: block; /* Ensure the div is block-level so 'margin: auto' works */
+    width: 100%; /* Shrink the width around its content */
+}
+
+.resume-preview img {
+    max-width: 600px; /* Adjust this value to make the image smaller or larger */
+    width: 100%;
+    height: auto;
+}
+
+/* If you added a class to the section */
+.resume-overview {
+    background-color: #f2f2f2; /* Light grey background */
+    padding: 20px; /* Adds padding inside the section */
+    margin-bottom: 20px; /* Adds some space below the section */
+    padding-top: 100px;
+    text-align: center;
+}
+
+.project-overview {
+    background-color: #f2f2f2; /* Light grey background */
+    padding: 20px; /* Adds padding inside the section */
+    margin-bottom: 10px; /* Adds some space below the section */
+    padding-top: 80px;
+    text-align: center;
+}
+.project-overview2 {
+    background-color: #d8e2dc; /* Light grey background */
+    padding: 20px; /* Adds padding inside the section */
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+.paragraph{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.header_underline{
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    max-width: 500px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.contact-me {
+    background-color: #d8e2dc; /* Light grey background, you might want to adjust */
+    padding: 50px 0; /* Adds vertical padding around the section */
+    color: #111111; /* Adjust text color as needed */
+    padding-left; 500px;
+}
+
+.contact-me h2 {
+    color: #111111; /* Sage green color for the header */
+    text-align: center; /* Center the header text */
+    margin-bottom: 30px; /* Space below the header */
+    margin-right: 30px;
+}
+
+.btn {
+    background-color: #4a766e; /* Sage green background for the button */
+    color: white; /* White text for the button */
+}
+
+.btn:hover {
+    background-color: #3a5a5e; /* Darker shade of sage green for hover effect */
+    color: white;
+}
+.interests-section{
+    background-color: #f2f2f2;
+}
+
+.interests-section h2 {
+    color: #4a766e; /* Keeping with your color theme */
+    text-align: center; /* Center the title for emphasis */
+    margin-bottom: 30px; /* Add some space below the title */
+}
+
+.interests-section img {
+    border-radius: 10px; /* Adds rounded corners to your image */
+    margin-bottom: 20px; /* Adds some space below the image */
+}
+
+.interests-section p, .interests-section ul {
+    text-align: left; /* Ensures text alignment is consistent with your style */
+    color: #111000; /* Text color for readability */
+}
+
+.info-overview {
+    background-color: #d8e2dc; /* Light grey background */
+    padding: 20px; /* Adds padding inside the section */
+    padding-top: 100px;
+    text-align: center;
+}
+/* Add or adjust existing styles in custom.css as needed */
+.info-preview {
+    text-align: center; /* Centers inline elements like <img> */
+    background-color: #f2f2f2; /* Light grey background */
+    margin: auto; /* Center the div */
+    display: block; /* Ensure the div is block-level so 'margin: auto' works */
+    width: 100%; /* Shrink the width around its content */
+    padding-top: 40px;
+}
+.info-preview img {
+    max-width: 600px; /* Adjust this value to make the image smaller or larger */
+    width: 100%;
+    height: auto;
+}
+
+.personal-blog {
+    padding: 50px 0; /* Adds vertical padding around the blog section */
+}
+
+.blog-header {
+    color: #4a766e; /* Sage green color to match the theme */
+    margin-bottom: 30px; /* Space below the blog header */
+}
+
+.blog-post {
+    margin-bottom: 40px; /* Space between blog posts */
+    max-width: 70%;
+}
+
+.blog-post h3 {
+    color: #333; /* Darker text for the post title */
+}
+
+.post-date {
+    font-style: italic;
+    color: #666; /* Lighter text color for the post date */
+}
+
 

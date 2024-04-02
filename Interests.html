@@ -3,13 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Andrew Salermo - Resume</title>
+    <title>Interests - Andrew Salermo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="custom.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
+<!-- Navigation, Sidebar, and other sections can be similarly included here -->
 
 <div class="nav-container d-flex justify-content-between"> <!-- Flex container for alignment -->
     <a href="index.html" class="navbar-brand">AS</a> <!-- Assuming 'index.html' is your homepage -->
@@ -19,10 +20,10 @@
             <a class="nav-link" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" href="resume.html">Resume</a>
+            <a class="nav-link" href="resume.html">Resume</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="true">Projects</a>
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Projects</a>
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="personal_project.html">Coding Project</a></li>
                 <li><a class="dropdown-item" href="DCIM.html">DCIM Project</a></li>
@@ -30,40 +31,44 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="Interests.html">Interests</a>
+            <a class="nav-link active" href="Interests.html">Interests</a>
         </li>
     </ul>
 </div>
 
-<section class="resume-overview">
-    <h2 class="resume-header">Resume Overview</h2>
-    <br>
-    <p style="font-size: 1.1rem;">Here's a quick look at my resume. Click on my resume image to download the pdf file:</p>
-    <div class="resume-preview">
-        <a href="Resume.pdf" download="Resume.pdf">
-            <img src="Resume_jpg.jpg" alt="Andrew Salermo Resume">
-        </a>
-    </div>
-</section>
-
-
-<!-- Sidebar -->
-<!-- Icon Sidebar -->
-<div class="icon-sidebar" style="background-color:#d8e2dc;">
+<div class="icon-sidebar">
     <a href="https://www.linkedin.com/in/andrew-salermo-b1550417a/" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a>
     <a href="https://github.com/AndrewSalermo" target="_blank"><i class="fab fa-github fa-4x"></i></a>
 </div>
 
+
+<section class="interests-section">
+    <div class="container">
+        <br>
+        <h2 class="resume-header" style="max-width:20%">My Interests</h2>
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img src="img1.jpg" alt="Andrew Salermo" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <p>One of my greatest interests in life is adventuring and making new experiences.</p>
+                <p>This is a picture I took after hiking almost 3 hours to get to a cave in Puerto Rico called "La Zanja".
+                Climbing up and down the steep side of a mountain and getting lost a few times is what it took
+                    for me to get to this beautiful place,
+                    but it's these experiences that life is all about.</p>
+                <!-- List your hobbies or interests -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
 <footer class="footer">
     <div class="container">
         <span>&copy; 2024 Andrew Salermo. All rights reserved.</span>
     </div>
 </footer>
 
-
-    <!-- Add more sections as needed -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
