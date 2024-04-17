@@ -270,6 +270,7 @@
 .blog-post {
     margin-bottom: 40px; /* Space between blog posts */
     max-width: 70%;
+    margin-left: 90px;
 }
 
 .blog-post h3 {
@@ -279,6 +280,14 @@
 .post-date {
     font-style: italic;
     color: #666; /* Lighter text color for the post date */
+}
+
+
+.references {
+    text-align: left;
+    max-width: 50%;
+    margin-left: 380px;
+    font-size: 0.9rem
 }
 
 
